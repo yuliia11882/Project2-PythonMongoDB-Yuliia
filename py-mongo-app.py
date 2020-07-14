@@ -64,7 +64,6 @@ def get_record():
     return document # we will return document whether a record is found or not found
 
 
-
 #TRy
 #   Display/GET ALL RECORDS
 
@@ -99,9 +98,6 @@ def get_record():
     #print(employee)
 
 # ?is there such thing like   document=collection.find_MANY?
-
-
-
 
 
 # first CRUD function:
@@ -144,10 +140,6 @@ def add_record():
         print("Error accessing the database")
  
 
-
-
-
-
 # VIEW
 
 def view_record():
@@ -160,14 +152,6 @@ def view_record():
                     print(key.capitalize(),": ", value.capitalize())    
                 else:
                       print(key.capitalize(),": ", value)  
-
-
-
-
-
-
-
-
 
 # DELETE
                
@@ -200,20 +184,6 @@ def delete_record():
                 print("Error accessing the database")
         else:
             print("Document not deleted")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # EDIT
 
@@ -263,9 +233,6 @@ def edit_record():
         except:
             print("Error accessing the database")
       
-
-
-
 
 #
 #
