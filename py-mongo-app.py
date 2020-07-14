@@ -29,17 +29,8 @@ def display_options():
     return user_option
 
 
-#
-#
-#
-
 
 # ....more CRUD continue ........
-
-
-#
-#
-#
 
 
 
